@@ -1,9 +1,8 @@
 on:
   push:
-    
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-       - run: echo "Deploiement du projet"
-
+      - run: echo "Deploiement"
