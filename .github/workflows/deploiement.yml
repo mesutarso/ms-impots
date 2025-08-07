@@ -1,0 +1,11 @@
+on:
+  push:
+    
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: echo "Deploiement du projet"
+
